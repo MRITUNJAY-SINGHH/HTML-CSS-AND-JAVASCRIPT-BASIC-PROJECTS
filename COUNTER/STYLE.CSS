@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-size: 3.2rem;
+}
+.value{
+    font-size: 3rem;
+}
+button{
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+button:first-child{
+    color: black;
+    background-color: red;
+}
+button:nth-last-of-type(2){
+    background-color: gray;
+    color: black;
+}
+button:nth-child(3){
+    background-color: green;
+    color: black;
+}
